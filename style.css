@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 1em;
+    background-color: darkolivegreen;
+    user-select: none;
+}
+
+header {
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+header > h1 {
+    color: whitesmoke;
+    font-size: 5em;
+    animation: textPulse 3s infinite;
+}
+
+@keyframes textPulse {
+    0% {transform: scale(0.9);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(0.9);}
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > div {
+    padding: 3em;
+}
+
+footer {
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.retroText {
+    font-family: 'Press Start 2P';
+    color: whitesmoke;
+}
+
+.credits {
+    font-size: 1em;
+}
+
+.highlight:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+#snakeCage {
+    display: flex;
+    flex-direction: row;
+    height: 480px;
+    width: 480px;
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+#startButton {
+    font-size: 3em;
+}
+
+#rulesAndControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#rulesAndControls > div {
+    height: 50%;
+    padding: 1em;
+}
+
+#rules {
+    display: flex;
+    font-size: 1em;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+#rules > ol {
+    margin: 0;
+}
+
+#rules > ol > li {
+    padding: 5px;
+}
+
+#controls {
+    width: 320px;
+    display: flex;
+}
+
+#controls > ul {
+    margin: 0;
+}
+
+#controls > ul > li {
+    padding: 5px;
+}
+
+.snakeSquare {
+    height: 38px;
+    width: 38px;
+    border: white solid 1px;
+}
+
+.snake {
+    background-color: darkolivegreen;
+}
+
+.apple {
+    background-color: darkred;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+    #startButton {
+        font-size: 2.5em;
+    }
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rulesAndControls {
+        flex-direction: row;
+    }
+
+    footer > div,
+    #rulesAndControls > div {
+        font-size: 1em;
+    }
+
+    #snakeCage {
+        height: 390px;
+        width: 390px;
+    }
+
+    .snakeSquare {
+        height: 30.5px;
+        width: 30.5px;
+        border: white solid 1px;
+    }
+}
