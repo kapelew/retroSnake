@@ -38,7 +38,8 @@ Aby sprawdzić siebie w tej grze można skorzystać z strony:
 - Stylowanie CSS nadaje aplikacji atrakcyjny wygląd retro, zgodnie z tematyką gry.
 - Implementacja logiki gry obejmuje poruszanie się węża, generowanie jabłek, punktowanie i detekcję kolizji.
 - Zastosowanie mediów zapytania w CSS dostosowuje wygląd gry do różnych rozmiarów ekranu.
-
+## Dalszy rozwój
+W przyszlosci planuje zaimplementować wersje moblina z obsługą gestów na ekrany dotykowe.
 
 ##
 Projekt nie korzysta z gotowych szablonów ani zewnętrznych frameworków do gier, został on zaprojektowany i zaimplementowany od podstaw samodzielnie.
