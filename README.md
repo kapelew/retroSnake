@@ -29,7 +29,7 @@ Aby sprawdzić siebie w tej grze można skorzystać z strony:
 
 - **CSS**
 
-- **JavaSciprt**
+- **JavaScript**
 
 
 
